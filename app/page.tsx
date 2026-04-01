@@ -14,7 +14,6 @@ export default function Home() {
           <div>
             在籍大学：福井大学
             <br />
-            学部・学科：工学部　電気電子情報工学科
             <br />
             学校では主にC、Java、Pythonを学習し、趣味の一環としてHTML、CSS、JavaScriptも学習途中
           </div>
