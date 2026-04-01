@@ -12,9 +12,6 @@ export default function Home() {
           </p>
           <div className="bullet_design"></div>
           <div>
-            在籍大学：福井大学
-            <br />
-            <br />
             学校では主にC、Java、Pythonを学習し、趣味の一環としてHTML、CSS、JavaScriptも学習途中
           </div>
         </div>
