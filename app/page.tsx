@@ -59,6 +59,7 @@ export default function Home() {
           <div className="mt-4 space-y-2">
             <p>いかにこれまでに作成したものを提示します。</p>
             <p>一部、画像と音声は著作権の心配があるため削除しています。</p>
+            <p>Webで動く５目ならべとJavaで作成したチンチロ掲載予定</p>
           </div>
         </div>
       </main>
