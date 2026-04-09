@@ -6,8 +6,10 @@ const CreateWeb = () => {
     <div className="createweb">
       <a href="https://mokunarabe-site-souma.vercel.app/" target="_blank">
         <div>
-          <img src="/introductionPic/3mokunarabe.png" alt="プロジェクトのスクリーンショット">
-          </img>
+          <img
+            src="/introductionPic/3mokunarabe.png"
+            alt="プロジェクトのスクリーンショット"
+          ></img>
         </div>
         <div>
           <p>「どっちが置いた！？記憶力も試される目並べ」</p>
@@ -80,6 +82,22 @@ export default function Home() {
             <p>Webで動く５目ならべとJavaで作成したチンチロ掲載予定</p>
           </div>
           <CreateWeb />
+          <div className="bullet_design">これから実装/やりたいこと</div>
+          <ul className="list-disc list-inside space-y-2">
+            <li>作成したものにescliptで作成したものを載せる</li>
+            <li>作成したもののリンクカードのデザインを見やすいものに</li>
+            <li>その他サイトのボタンのUIを改める</li>
+            <li>アニメーションの追加</li>
+            <li>画面が全体的に面白みがないので見ていて楽しくなるようなものに一新</li>
+          </ul>
+          <div className="bullet_design">その他サイト</div>
+          <a
+            href="https://github.com/ise-souma"
+            target="_blank"
+            className="sonotasite"
+          >
+            github
+          </a>
         </div>
       </main>
     </div>
