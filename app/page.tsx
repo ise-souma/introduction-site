@@ -1,6 +1,24 @@
 import Image from "next/image";
 import "./homesite.css";
 
+const CreateWeb = () => {
+  return (
+    <div className="createweb">
+      <a href="https://mokunarabe-site-souma.vercel.app/" target="_blank">
+        <div>
+          <img src="/introductionPic/3mokunarabe.png" alt="プロジェクトのスクリーンショット">
+          </img>
+        </div>
+        <div>
+          <p>「どっちが置いた！？記憶力も試される目並べ」</p>
+          <p>一定確率でどっちが置いたかわからなくなる？マスになる目ならべ！</p>
+          <p>何マス並べたら勝利かも変更可</p>
+        </div>
+      </a>
+    </div>
+  );
+};
+
 export default function Home() {
   return (
     <div>
@@ -61,6 +79,7 @@ export default function Home() {
             <p>一部、画像と音声は著作権の心配があるため削除しています。</p>
             <p>Webで動く５目ならべとJavaで作成したチンチロ掲載予定</p>
           </div>
+          <CreateWeb />
         </div>
       </main>
     </div>

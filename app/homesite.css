@@ -39,3 +39,13 @@
   background: linear-gradient(135deg, #18aba4 10%, #82cba6 90%);
   width: 100%;
 }
+
+.createweb {
+  display: flex;
+  max-width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  cursor: pointer;
+}
+
